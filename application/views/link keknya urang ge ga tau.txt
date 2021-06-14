@@ -1,0 +1,4 @@
+	<br><a href='http://localhost/TubesTekWeb/index.php/Admin/'> HOME </a></br>
+	<br><a href='http://localhost/TubesTekWeb/index.php/Admin/jacketVIEW'> KELOLA JACKET </a></br>
+	<br><a href='http://localhost/TubesTekWeb/index.php/Admin/aboutVIEW'> ABOUT </a></br>
+	<br><a href='http://localhost/TubesTekWeb/index.php/Admin/logout'> LOGOUT </a></br>

@@ -166,7 +166,11 @@ body, html {
     <div class="w3-col m3">
       <img src="https://5qpbpa.dm.files.1drv.com/y4p3YORb3blquo0qqmb9lKYRhbEQUGhJsIEw_hpqg-8N6hqWm8mBYUJuz83671xGtxzu1mtAZkGjoFpU6hn6jac_onISWq7-JgF1gB0ldDLkKBbiH9XSLv3q1znw7TH22ffFbqshh0dGhrJ1D5MrHw2D61FH9wF4N1gIbK83p29-WJhfSWI2dPXoxFDRP5H8LEGSL7eGljrlFUunWImYhv7pw/Cardinal_resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cardinal">
     </div>
-  <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">
+    <a href="http://localhost/TubesTekWeb/index.php/User/jacketVIEW">
+    LEBIH BANYAK
+    </a>
+  </button>
   </div>
 </div>
 
@@ -226,7 +230,7 @@ body, html {
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Kelompok 6 &copy; FSI 2021</p>
 </footer>
  
 <script>

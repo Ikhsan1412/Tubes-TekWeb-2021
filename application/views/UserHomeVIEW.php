@@ -51,6 +51,13 @@ body, html {
     min-height: 400px;
   }
 }
+
+.myimg{
+  width:300px;
+  height:300px;
+  object-fit:cover;
+}
+
 </style>
 <body>
 
@@ -62,16 +69,8 @@ body, html {
     </a>
     <a href="#home" class="w3-bar-item w3-button">BERANDA</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> TENTANG</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PRODUK</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> KATALOG</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> MASUK</a>
-    
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">TENTANG</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PRODUK</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">MASUK</a>
     
   </div>
 </div>
@@ -106,21 +105,17 @@ body, html {
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
+  <div class="w3-third w3-section">
     <span class="w3-xlarge">14+</span><br>
-    Merek Terkenal Yang Bekerja Sama
+    Merek Terkenal
   </div>
-  <div class="w3-quarter w3-section">
+  <div class="w3-third w3-section">
     <span class="w3-xlarge">55+</span><br>
     Desain Original
   </div>
-  <div class="w3-quarter w3-section">
+  <div class="w3-third w3-section">
     <span class="w3-xlarge">89+</span><br>
     Ulasan Positif Kurator Ternama
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">1.500.000+</span><br>
-    Pengguna Aktif
   </div>
 </div>
 
@@ -133,27 +128,45 @@ body, html {
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">PRODUK KAMI</h3>
+  <h3 class="w3-center">KATALOG KAMI</h3>
   
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="https://www.belstaff.com/dw/image/v2/BDNW_PRD/on/demandware.static/-/Sites-belstaff_master_catalog/default/dw6a889941/products/KELLAND_JACKET_TARP_71020815C61N015860132_LK.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Belstaff">
+      <img src="https://5qpbpa.dm.files.1drv.com/y4p_Q-8rv0M3u9kRfNkjtHbR_ImP19pTdTXq_UbxwSLepc0jmqqx6Nx8SgI2pQyoc9grDlY2E8e0y8f9t0K2PvrdUc3CUk0PubbwJUv6fZC4Je9tuC4MQjxN-A7yiQK_MCE6RR2bw2p5HpNuQgYeTaGDwn6W1rzyXMgmU6-0oAhlb58Is4wBfji18uZklCqNjb6DwmHYdFA7zoAeun8hPwVvQ/Belstaff_resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Belstaff">
     </div>
 
     <div class="w3-col m3">
-      <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/47e22b5a-9cf8-4b46-bf50-f2417e9062f4/sportswear-reissue-williwaw-woven-jacket-vlXn18.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Nike">
+      <img src="https://5qpbpa.dm.files.1drv.com/y4pmblDG4WIU9vosuIItK28U7nwASVISrg0K2YxStXvQup_DPH5KPrXTqF07ZAmbbATKOz7dLGlWdzUS9DPR4HfVIiufS4kjylIcr_A11xAbWLLqWjpK6bffRxWe1RpPZB_FhIoUHUpyWNThXGb30lxIPFyWPjIRFKVKvR6INDMy6elDqax2_U3Bxyug6c8vdH_BdBBc2Q4S_cP3CH8sbo3dA/Nike_resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Nike">
     </div>
 
     <div class="w3-col m3">
-      <img src="https://media.gucci.com/style/DarkGray_Center_0_0_2400x2400/1616007603/655469_XJDHN_4120_002_100_0000_Light-Sweatshirt-with-25-Gucci-Eschatology-and-Blind-for-Love-1921-print.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Gucci">
+      <img src="https://5qpbpa.dm.files.1drv.com/y4phY6OvyFdrZceXIuChkjB9vq0BNsyDbrUEypMPQGKSKtFjXtTh9-uM2cxntFlLrAdrsxzfa6PY9QrSA5h8pUG2SmFM3i5iiJRv7ub311Xe0stTXUVxRpNSBu72KbUsJ-lkZF5erFwFIp8khvFkbIyc9QR5Zb7ZLqxqYFH4HiPdSgObWCTGM2LVBfoXiZhTQqjBpx6Ek3ulxXoxYsSu_b3ug/Gucci_resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Gucci">
     </div>
 
     <div class="w3-col m3">
-      <img src="https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/425042/item/goods_32_425042.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Uniqlo">
+      <img src="https://5qpbpa.dm.files.1drv.com/y4pwLl94854FmiVvNn7v9jNfT3f7rBePIsmfpjg5To0RV_MYr5965ufHO8QrecU6kx16zKQ6LPAsZl-kRTdSEmS8SXhdBlQ7CsqInKOBOcZiHH0jmrYOWT_Bli22tSEnuongUbqALChTX8niqc6sxrZyknZznoWStrCwhnfs-ZYjzddWkfCtpcWRhX2yECDipmJdwrLAfuDD59pOhP4gEyy4A/Uniqlo_resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Uniqlo">
     </div>
   </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="https://5qpbpa.dm.files.1drv.com/y4po2PwAVyU3g0aMjsQ0SJMnpNsP8icYejmFJ66blVVcRDhTGwRkNVKbk38xFdIB-mVBOkX0dDSq--2InaaMXuqeqxCmA3MXhtdOndxXw37-TLkNpsBlnk4KsNlqU92bFpGA7lL-AJ7GMn3ZhDUPIE0kATfepWB6GsGMTvI8R1E7nItxmfTYY5BSr5_2sBPa5GZLVzUgVw6OLntRT2iDkX-hw/Adidas_resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Adidas">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://5qpbpa.dm.files.1drv.com/y4poW-7hpCc8dCQ8ScMgSwk0isLL4L-OajJATEBztvS0KHHVDE-xM6t-wgtv6JK_us6vHWM7axxbFixxc1HD2sKW3Lc45Q9jl-zvGSSN8RwQmb9prdutpYzjwHWs1zRXYGiQUlZ68jew08vgG2S5cPzd5xpLEpk6NIz_0x6KI4lEgXOjukyteCD1X1nL6jpqCRZMQ2SbEEjZmqgv8tGX-vYww/Blackid_resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="BlackID">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://5qpbpa.dm.files.1drv.com/y4pMAmtmGx1mzn1jzF5FpCgz3yhFjjE03d1Z_420cBI5_px1cdl5EYYtMETgvwrkamWYWYMpYJCCJTvRokBLgTFcLUeaqWZv0ZBY7YMbtfe8S7HWdi5GP23Yog08jipqIrTS6dncu3x2gepFLJpDJJ43g2eAT-A5XaIUBBw6Eyqn-vnYrFlDRMYVpbIqhBxrs_wRFvDXG2eBLYHXN2IIhvP4A/Kenzo_resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kenzo">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://5qpbpa.dm.files.1drv.com/y4p3YORb3blquo0qqmb9lKYRhbEQUGhJsIEw_hpqg-8N6hqWm8mBYUJuz83671xGtxzu1mtAZkGjoFpU6hn6jac_onISWq7-JgF1gB0ldDLkKBbiH9XSLv3q1znw7TH22ffFbqshh0dGhrJ1D5MrHw2D61FH9wF4N1gIbK83p29-WJhfSWI2dPXoxFDRP5H8LEGSL7eGljrlFUunWImYhv7pw/Cardinal_resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cardinal">
+    </div>
+  <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
   </div>
 </div>
 

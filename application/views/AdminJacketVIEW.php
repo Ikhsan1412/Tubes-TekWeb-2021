@@ -148,9 +148,50 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Katalog Produk</h1>
+                        <h1 class="h3 mb-0 text-gray-800">KELOLA JAKET</h1>
                     </div>
-
+				 <!-- EXAMPLE DATA -->
+				<div class="container">
+				<h1>Daftar Jaket</h1>
+				<a href='http://localhost/TubesTekWeb/index.php/Admin/tambah'> TAMBAH JAKET </a>
+				<table table border='1'>
+					<tr>
+						<th>ID</th>
+						<th>Merk</th>
+						<th>Color</th>
+						<th>Size</th>
+						<th>Harga</th>
+						<th>Jenis Jaket</th>
+						<th>Aksi</th>
+					</tr>
+					<?php foreach ($jaket->result() as $r): ?>
+					<tr>
+						<td>
+							<?php echo $r->id_jaket ?>
+						</td>
+						<td>
+							<?php echo $r->merk_jaket ?>
+						</td>
+						<td>
+							<?php echo $r->color_jaket ?>
+						</td>
+						<td>
+							<?php echo $r->size_jaket ?>
+						</td>
+						<td>
+							<?php echo $r->harga_jaket ?>
+						</td>
+						<td>
+							<?php echo $r->jenis_jaket ?>
+						</td>
+						<td>
+							<a href="<?php echo site_url("Admin/update/".$r->id_jaket) ?>" class="btn btn-small">Edit</a>
+							<a href="<?php echo site_url("Admin/hapus/".$r->id_jaket) ?>" class="btn btn-small text-danger">Hapus</a>
+						</td>
+					</tr>
+					<?php endforeach; ?>
+				</table>
+				</div>
                 </div>
                 <!-- /.container-fluid -->
 

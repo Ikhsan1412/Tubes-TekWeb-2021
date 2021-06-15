@@ -40,7 +40,21 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
   <!-- Photo grid -->
 
+<?php
+  $query = "SELECT * FROM jaket WHERE jaket.id_jaket AND jaket.merk_jaket AND jaket.size_jaket AND jaket.harga_jaket AND jaket.jenis_jaket AND jaket.path_gambar"
+  $tampil = mysqli_query()
+  ?>
 
+  <?php
+  foreach ($jaket as $jkt) {
+    $path_loc = $jkt['path_gambar'];
+    if ($path_loc == NULL) {
+      echo "anjay bisa";
+      //$def_path = "https://6kpdpa.dm.files.1drv.com/y4pcQDSs7bagEzUaKo6nxOhztdudD0JuIV31fvwLfl2rU1s8KCCpaDVNqOb3LCNkVQNl4LbgjdUlIjKUTPBOCJXQ1qepmw7VPZuZmoaIY1GOStyQ4OLEd91Y_BazYqVz9rKVWTVgJ_U1cj5l5H1u6bDZfN4D6-axT_uUtJJGbipwIWoazpqosTpDMMDnNBXNElp8o5fHz9cMpjiR38cCsrK6g/no%20item.png"
+    }
+  }
+
+  ?>
   <!-- File orisinil -->
   <div class="w3-row w3-grayscale-min">
     <div class="w3-quarter">

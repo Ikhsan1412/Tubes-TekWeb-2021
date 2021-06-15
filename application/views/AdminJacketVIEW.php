@@ -18,7 +18,7 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="https://gitcdn.link/repo/Ikhsan1412/bootstrap-tubes-tekweb/main/css/sb-admin-2.css" rel="stylesheet">
+    <link href="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/css/sb-admin-2.css" rel="stylesheet">
 
 <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=COIjiVsgUcIZ4RR4JAhXQ2o39M72b26kxZQtWEnVkG-_J3Km_gaZDJ2k6eeXIx6TNU_FUOPgthWGqUrCbqJPQUkvyRqE76x7n232CC4WBlhBAcnq8dSmy7DiWfIdN9m7V0mNF86yVq28WSz13bIArw" charset="UTF-8"></script></head>
 
@@ -199,21 +199,21 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="https://gitcdn.link/repo/Ikhsan1412/bootstrap-tubes-tekweb/main/vendor/jquery/jquery.min.js"></script>
-    <script src="https://gitcdn.link/repo/Ikhsan1412/bootstrap-tubes-tekweb/main/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/jquery/jquery.min.js"></script>
+    <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="https://gitcdn.link/repo/Ikhsan1412/bootstrap-tubes-tekweb/main/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="https://gitcdn.link/repo/Ikhsan1412/bootstrap-tubes-tekweb/main/js/sb-admin-2.min.js"></script>
+    <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
-    <script src="https://gitcdn.link/repo/Ikhsan1412/bootstrap-tubes-tekweb/main/vendor/chart.js/Chart.min.js"></script>
+    <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/chart.js/Chart.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="https://gitcdn.link/repo/Ikhsan1412/bootstrap-tubes-tekweb/main/js/demo/chart-area-demo.js"></script>
-    <script src="https://gitcdn.link/repo/Ikhsan1412/bootstrap-tubes-tekweb/main/js/demo/chart-pie-demo.js"></script>
+    <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/js/demo/chart-area-demo.js"></script>
+    <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/js/demo/chart-pie-demo.js"></script>
 
 </body>
 

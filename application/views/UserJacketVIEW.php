@@ -15,7 +15,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
-  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">SEMBUNYIKAN</a> 
+  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">✕</a> 
   <a href="http://localhost/TubesTekWeb/index.php/User/" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">HALAMAN AWAL</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">KATALOG</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">HUBUNGI KAMI</a>
@@ -39,6 +39,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
      Usahain satu barisnya dari brand yang sama, apa aja. Di alt, tulisin model atau mereknya, oc ;) -->
 
   <!-- Photo grid -->
+
+
+  <!-- File orisinil -->
   <div class="w3-row w3-grayscale-min">
     <div class="w3-quarter">
       <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
@@ -64,8 +67,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <img src="/w3images/boy.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
     </div>
   </div>
-
-  <!-- Yep, done UwU -->
+  <!-- Akhir file orisinil -->
+<!-- Yep, done UwU -->
 
   <!-- Pagination -->
   <div class="w3-center w3-padding-32">
@@ -123,11 +126,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-half">
         <h3>TAG POPULER</h3>
         <p>
-          <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">London</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">DIY</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Family</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Shopping</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Games</span>
+          <span class="w3-tag w3-black w3-margin-bottom">Tren terkini</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Mantel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cardigan</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sweater</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Disain Original</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Jaket</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Model terbatas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cardinal</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Kenzo</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Pegunungan</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Uniqlo</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Lainnya</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Info</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Stok</span>
         </p>
       </div>
     </div>

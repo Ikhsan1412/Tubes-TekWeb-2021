@@ -179,25 +179,17 @@
 							<h6 class="m-0 font-weight-bold text-primary">Tabel Katalog</h6>
 						</div>
 						<div class="card-body">
-							<form action="<?php echo site_url('Admin/Prosestambah'); ?>" method="post">
-								<div class="form-group">
-									<input type="text" class="form-control form-control-user" id="brandName"
-										aria-describedby="brand" placeholder="Masukkan nama brand...">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control form-control-user" id="color"
+							<form action="<?php echo site_url('Admin/prosesUpdate/'); ?>" method="post">
+							<div class="form-group">
+									<input type="text" class="form-control form-control-user" name="merk"
+										aria-describedby="merk" placeholder="Masukkan nama brand...">
+									<input type="text" class="form-control form-control-user" name="color"
 										aria-describedby="color" placeholder="Masukkan warna...">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control form-control-user" id="size"
+									<input type="text" class="form-control form-control-user" name="size"
 										aria-describedby="size" placeholder="Masukkan ukuran jaket...">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control form-control-user" id="priceTag"
+									<input type="text" class="form-control form-control-user" name="harga"
 										aria-describedby="price" placeholder="Masukkan harga jaket...">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control form-control-user" id="type"
+									<input type="text" class="form-control form-control-user" name="jenis"
 										aria-describedby="type" placeholder="Masukkan jenis jaket...">
 								</div>
 								<a href="http://localhost/TubesTekWeb/index.php/Admin/jacketVIEW"
@@ -205,7 +197,7 @@
 									<i class="fas fa-trash">
 									</i>
 								</a>
-								<a class="btn btn-success btn-circle btn-sm" type="submit">
+								<a href="#" onclick="$(this).closest('form').submit()" class="btn btn-success btn-circle btn-sm">
 									<i class="fas fa-check"></i>
 								</a>
 							</form>

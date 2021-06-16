@@ -9,10 +9,29 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Produk Toko</title>
+    <title>Administrasi Katalog</title>
 
+    <style>
+        .CatalogueTable {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd
+        }
+
+        .CatalogueTH,
+        .CatalogueTD {
+            text-align: left;
+            padding: 16px;
+        }
+
+        .CatalogueTR:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
     <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/fontawesome-free/css/all.min.css"
+        rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -20,7 +39,10 @@
     <!-- Custom styles for this template-->
     <link href="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/css/sb-admin-2.css" rel="stylesheet">
 
-<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=COIjiVsgUcIZ4RR4JAhXQ2o39M72b26kxZQtWEnVkG-_J3Km_gaZDJ2k6eeXIx6TNU_FUOPgthWGqUrCbqJPQUkvyRqE76x7n232CC4WBlhBAcnq8dSmy7DiWfIdN9m7V0mNF86yVq28WSz13bIArw" charset="UTF-8"></script></head>
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=COIjiVsgUcIZ4RR4JAhXQ2o39M72b26kxZQtWEnVkG-_J3Km_gaZDJ2k6eeXIx6TNU_FUOPgthWGqUrCbqJPQUkvyRqE76x7n232CC4WBlhBAcnq8dSmy7DiWfIdN9m7V0mNF86yVq28WSz13bIArw"
+        charset="UTF-8"></script>
+</head>
 
 <body id="page-top">
 
@@ -118,19 +140,20 @@
                             </div>
                         </li>
 
-                        
+
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">White Weaver<Datag></Datag></span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">White Weaver<Datag></Datag>
+                                    </span>
                                 <img class="img-profile rounded-circle"
                                     src="https://jmyuda.dm.files.1drv.com/y4pqMFiwYqclbRWuhO_ttkDOPMcO29KqmditEFoM8XqnhG9vsXaS4yf_SCt3IGTqthrbteKsNt2Ih4Gp13vXrM6DEfUQZmvaQqraF2i19B3KT3htD7Kt6VQbBhDAEPtvsshoIMzeswEeCy2eCCGghYyPsoHAAe7_hfshBHMxZW9YTRt2-5yvgff7IIJ3pnBaqXPUQFD1GiUaur6sV-xnvoVvA/88886596_p0.jpg?psid=1https://jmyuda.dm.files.1drv.com/y4pqMFiwYqclbRWuhO_ttkDOPMcO29KqmditEFoM8XqnhG9vsXaS4yf_SCt3IGTqthrbteKsNt2Ih4Gp13vXrM6DEfUQZmvaQqraF2i19B3KT3htD7Kt6VQbBhDAEPtvsshoIMzeswEeCy2eCCGghYyPsoHAAe7_hfshBHMxZW9YTRt2-5yvgff7IIJ3pnBaqXPUQFD1GiUaur6sV-xnvoVvA/88886596_p0.jpg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                
+
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Keluar
@@ -150,48 +173,71 @@
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">KELOLA JAKET</h1>
                     </div>
-				 <!-- EXAMPLE DATA -->
-				<div class="container">
-				<h1>Daftar Jaket</h1>
-				<a href='http://localhost/TubesTekWeb/index.php/Admin/tambah'> TAMBAH JAKET </a>
-				<table table border='1'>
-					<tr>
-						<th>ID</th>
-						<th>Merk</th>
-						<th>Color</th>
-						<th>Size</th>
-						<th>Harga</th>
-						<th>Jenis Jaket</th>
-						<th>Aksi</th>
-					</tr>
-					<?php foreach ($jaket->result() as $r): ?>
-					<tr>
-						<td>
-							<?php echo $r->id_jaket ?>
-						</td>
-						<td>
-							<?php echo $r->merk_jaket ?>
-						</td>
-						<td>
-							<?php echo $r->color_jaket ?>
-						</td>
-						<td>
-							<?php echo $r->size_jaket ?>
-						</td>
-						<td>
-							<?php echo $r->harga_jaket ?>
-						</td>
-						<td>
-							<?php echo $r->jenis_jaket ?>
-						</td>
-						<td>
-							<a href="<?php echo site_url("Admin/update/".$r->id_jaket) ?>" class="btn btn-small">Edit</a>
-							<a href="<?php echo site_url("Admin/hapus/".$r->id_jaket) ?>" class="btn btn-small text-danger">Hapus</a>
-						</td>
-					</tr>
-					<?php endforeach; ?>
-				</table>
-				</div>
+                    <!-- EXAMPLE DATA -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Tabel Katalog</h6>
+                        </div>
+                        <a href="http://localhost/TubesTekWeb/index.php/Admin/tambah" class="btn btn-success btn-sm">
+                            <span class="text">Tambah Jaket</span>
+                        </a>
+                        <div class="card-body">
+
+                            <div class="table-responsive">
+                                <div class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <table class="CatalogueTable CatalogueTH CatalogueTD CatalogueTR" table border='1'>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Merk</th>
+                                            <th>Color</th>
+                                            <th>Size</th>
+                                            <th>Harga</th>
+                                            <th>Jenis Jaket</th>
+                                            <th>Aksi</th>
+                                        </tr>
+                                        <?php foreach ($jaket->result() as $r): ?>
+                                        <tr>
+                                            <td>
+                                                <?php echo $r->id_jaket ?>
+                                            </td>
+                                            <td>
+                                                <?php echo $r->merk_jaket ?>
+                                            </td>
+                                            <td>
+                                                <?php echo $r->color_jaket ?>
+                                            </td>
+                                            <td>
+                                                <?php echo $r->size_jaket ?>
+                                            </td>
+                                            <td>
+                                                <?php echo $r->harga_jaket ?>
+                                            </td>
+                                            <td>
+                                                <?php echo $r->jenis_jaket ?>
+                                            </td>
+                                            <td>
+                                                <a href="<?php echo site_url(" Admin/update/".$r->id_jaket) ?>"
+                                                    class="btn btn-warning btn-icon-split">
+                                                    <span class="icon text-white-50">
+                                                        <i class="fas fa-exclamation-triangle"></i>
+                                                    </span>
+                                                    <span class="text">Rubah</span>
+                                                </a>
+                                                <a href="<?php echo site_url(" Admin/hapus/".$r->id_jaket) ?>"
+                                                    class="btn btn-danger btn-icon-split">
+                                                    <span class="icon text-white-50">
+                                                        <i class="fas fa-trash"></i>
+                                                    </span>
+                                                    <span class="text">Hapus</span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <?php endforeach; ?>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- /.container-fluid -->
 
@@ -241,10 +287,12 @@
 
     <!-- Bootstrap core JavaScript-->
     <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/jquery/jquery.min.js"></script>
-    <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script
+        src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script
+        src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
     <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/js/sb-admin-2.min.js"></script>

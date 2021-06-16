@@ -40,47 +40,24 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
   <!-- Photo grid -->
 
-<<<<<<< Updated upstream
 <?php
-  $query = "SELECT * FROM jaket WHERE jaket.id_jaket AND jaket.merk_jaket AND jaket.size_jaket AND jaket.harga_jaket AND jaket.jenis_jaket AND jaket.path_gambar"
+  $query = "SELECT * FROM jaket"
   
   ?>
 
 <?php
-            foreach ($jaket->result() as $jkt48) {
-                $selected = "";
-                if($jkt48->path_gambar == NULL){ ?>
-                 <div class="w3-quarter">
-                 <img src="https://6kpdpa.dm.files.1drv.com/y4pcQDSs7bagEzUaKo6nxOhztdudD0JuIV31fvwLfl2rU1s8KCCpaDVNqOb3LCNkVQNl4LbgjdUlIjKUTPBOCJXQ1qepmw7VPZuZmoaIY1GOStyQ4OLEd91Y_BazYqVz9rKVWTVgJ_U1cj5l5H1u6bDZfN4D6-axT_uUtJJGbipwIWoazpqosTpDMMDnNBXNElp8o5fHz9cMpjiR38cCsrK6g/no%20item.png" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
-                 </div>
-  <?php              }
-  elseif ($jkt48->path_gambar != NULL) {
-    echo "Anjay mabar";
-  }
-            }
-        ?>
+      foreach ($jaket->result() as $jkt48) {  ?>
+        <div class="w3-quarter">
+<?php        if($jkt48->id_jaket == NULL){ ?>
+                <img src="static_link.jpg" style="width:100%" onclick="onClick(this)" alt="Sesuatu">
+<?php       }
+            elseif ($jkt48->id_jaket != NULL) { ?>
+                <img src="static_link.jpg" style="width:100%" onclick="onClick(this)" alt="Sesuatu">
+<?php        } ?>
+        </div>
+<?php     }?>
 
   
-=======
-  <!-- Experimental code -->
-
-  <?php var_dump($jaket); ?>
-  <div class="w3-row w3-grayscale-min">
-    <div class="w3-quarter">
-    <?php foreach($jaket as $jkt):?>
-    constant a=1;
-      <?php if (a == 1)
-        echo anjay
-      
-      ?>
-    <?php endforeach;?>
-      <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt= >
-      
-   </div>
-   
-
-  <!-- AKhir dari kode eksperimental -->
->>>>>>> Stashed changes
 
   <!-- File orisinil -->
   <div class="w3-row w3-grayscale-min">

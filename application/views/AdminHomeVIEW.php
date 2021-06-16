@@ -12,7 +12,8 @@
     <title>Administrasi Toko</title>
 
     <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/fontawesome-free/css/all.min.css"
+        rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -20,7 +21,10 @@
     <!-- Custom styles for this template-->
     <link href="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/css/sb-admin-2.css" rel="stylesheet">
 
-<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=COIjiVsgUcIZ4RR4JAhXQ2o39M72b26kxZQtWEnVkG-_J3Km_gaZDJ2k6eeXIx6TNU_FUOPgthWGqUrCbqJPQUkvyRqE76x7n232CC4WBlhBAcnq8dSmy7DiWfIdN9m7V0mNF86yVq28WSz13bIArw" charset="UTF-8"></script></head>
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=COIjiVsgUcIZ4RR4JAhXQ2o39M72b26kxZQtWEnVkG-_J3Km_gaZDJ2k6eeXIx6TNU_FUOPgthWGqUrCbqJPQUkvyRqE76x7n232CC4WBlhBAcnq8dSmy7DiWfIdN9m7V0mNF86yVq28WSz13bIArw"
+        charset="UTF-8"></script>
+</head>
 
 <body id="page-top">
 
@@ -118,19 +122,20 @@
                             </div>
                         </li>
 
-                        
+
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">White Weaver<Datag></Datag></span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">White Weaver<Datag></Datag>
+                                </span>
                                 <img class="img-profile rounded-circle"
                                     src="https://jmyuda.dm.files.1drv.com/y4pqMFiwYqclbRWuhO_ttkDOPMcO29KqmditEFoM8XqnhG9vsXaS4yf_SCt3IGTqthrbteKsNt2Ih4Gp13vXrM6DEfUQZmvaQqraF2i19B3KT3htD7Kt6VQbBhDAEPtvsshoIMzeswEeCy2eCCGghYyPsoHAAe7_hfshBHMxZW9YTRt2-5yvgff7IIJ3pnBaqXPUQFD1GiUaur6sV-xnvoVvA/88886596_p0.jpg?psid=1https://jmyuda.dm.files.1drv.com/y4pqMFiwYqclbRWuhO_ttkDOPMcO29KqmditEFoM8XqnhG9vsXaS4yf_SCt3IGTqthrbteKsNt2Ih4Gp13vXrM6DEfUQZmvaQqraF2i19B3KT3htD7Kt6VQbBhDAEPtvsshoIMzeswEeCy2eCCGghYyPsoHAAe7_hfshBHMxZW9YTRt2-5yvgff7IIJ3pnBaqXPUQFD1GiUaur6sV-xnvoVvA/88886596_p0.jpg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                
+
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Keluar
@@ -200,10 +205,12 @@
 
     <!-- Bootstrap core JavaScript-->
     <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/jquery/jquery.min.js"></script>
-    <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script
+        src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script
+        src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
     <script src="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/js/sb-admin-2.min.js"></script>

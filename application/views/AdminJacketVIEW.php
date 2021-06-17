@@ -146,7 +146,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">White Weaver<Datag></Datag>
-                                    </span>
+                                </span>
                                 <img class="img-profile rounded-circle"
                                     src="https://jmyuda.dm.files.1drv.com/y4pqMFiwYqclbRWuhO_ttkDOPMcO29KqmditEFoM8XqnhG9vsXaS4yf_SCt3IGTqthrbteKsNt2Ih4Gp13vXrM6DEfUQZmvaQqraF2i19B3KT3htD7Kt6VQbBhDAEPtvsshoIMzeswEeCy2eCCGghYyPsoHAAe7_hfshBHMxZW9YTRt2-5yvgff7IIJ3pnBaqXPUQFD1GiUaur6sV-xnvoVvA/88886596_p0.jpg?psid=1https://jmyuda.dm.files.1drv.com/y4pqMFiwYqclbRWuhO_ttkDOPMcO29KqmditEFoM8XqnhG9vsXaS4yf_SCt3IGTqthrbteKsNt2Ih4Gp13vXrM6DEfUQZmvaQqraF2i19B3KT3htD7Kt6VQbBhDAEPtvsshoIMzeswEeCy2eCCGghYyPsoHAAe7_hfshBHMxZW9YTRt2-5yvgff7IIJ3pnBaqXPUQFD1GiUaur6sV-xnvoVvA/88886596_p0.jpg">
                             </a>

@@ -146,7 +146,7 @@
 							<a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<span class="mr-2 d-none d-lg-inline text-gray-600 small">White Weaver<Datag></Datag>
-									</span>
+								</span>
 								<img class="img-profile rounded-circle"
 									src="https://jmyuda.dm.files.1drv.com/y4pqMFiwYqclbRWuhO_ttkDOPMcO29KqmditEFoM8XqnhG9vsXaS4yf_SCt3IGTqthrbteKsNt2Ih4Gp13vXrM6DEfUQZmvaQqraF2i19B3KT3htD7Kt6VQbBhDAEPtvsshoIMzeswEeCy2eCCGghYyPsoHAAe7_hfshBHMxZW9YTRt2-5yvgff7IIJ3pnBaqXPUQFD1GiUaur6sV-xnvoVvA/88886596_p0.jpg?psid=1https://jmyuda.dm.files.1drv.com/y4pqMFiwYqclbRWuhO_ttkDOPMcO29KqmditEFoM8XqnhG9vsXaS4yf_SCt3IGTqthrbteKsNt2Ih4Gp13vXrM6DEfUQZmvaQqraF2i19B3KT3htD7Kt6VQbBhDAEPtvsshoIMzeswEeCy2eCCGghYyPsoHAAe7_hfshBHMxZW9YTRt2-5yvgff7IIJ3pnBaqXPUQFD1GiUaur6sV-xnvoVvA/88886596_p0.jpg">
 							</a>
@@ -180,24 +180,25 @@
 						</div>
 						<div class="card-body">
 							<form action="<?php echo site_url('Admin/prosesUpdate/'); ?>" method="post">
-							<div class="form-group">
+								<div class="form-group">
 									<input type="text" class="form-control form-control-user" name="merk"
-										aria-describedby="merk" placeholder="Masukkan nama brand...">
+										aria-describedby="merk" placeholder="<?php echo $jaket->merk_jaket ?>">
 									<input type="text" class="form-control form-control-user" name="color"
-										aria-describedby="color" placeholder="Masukkan warna...">
+										aria-describedby="color" placeholder="<?php echo $jaket->color_jaket ?>">
 									<input type="text" class="form-control form-control-user" name="size"
-										aria-describedby="size" placeholder="Masukkan ukuran jaket...">
+										aria-describedby="size" placeholder="<?php echo $jaket->size_jaket ?>">
 									<input type="text" class="form-control form-control-user" name="harga"
-										aria-describedby="price" placeholder="Masukkan harga jaket...">
+										aria-describedby="price" placeholder="<?php echo $jaket->harga_jaket ?>">
 									<input type="text" class="form-control form-control-user" name="jenis"
-										aria-describedby="type" placeholder="Masukkan jenis jaket...">
+										aria-describedby="type" placeholder="<?php echo $jaket->jenis_jaket ?>">
 								</div>
 								<a href="http://localhost/TubesTekWeb/index.php/Admin/jacketVIEW"
 									class="btn btn-danger btn-circle btn-sm">
 									<i class="fas fa-trash">
 									</i>
 								</a>
-								<a href="#" onclick="$(this).closest('form').submit()" class="btn btn-success btn-circle btn-sm">
+								<a href="#" onclick="$(this).closest('form').submit()"
+									class="btn btn-success btn-circle btn-sm">
 									<i class="fas fa-check"></i>
 								</a>
 							</form>

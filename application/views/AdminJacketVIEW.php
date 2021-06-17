@@ -18,16 +18,6 @@
             width: 100%;
             border: 1px solid #ddd
         }
-
-        .CatalogueTH,
-        .CatalogueTD {
-            text-align: left;
-            padding: 16px;
-        }
-
-        .CatalogueTR:nth-child(even) {
-            background-color: #f2f2f2;
-        }
     </style>
     <!-- Custom fonts for this template-->
     <link href="https://gitcdn.link/repo/Ikhsan1412/Tubes-TekWeb-2021/main/vendor/fontawesome-free/css/all.min.css"
@@ -183,11 +173,11 @@
                         </a>
                         <div class="card-body">
 
+                            <!-- Ini ke bawah tempat database dimuat-->
                             <div class="table-responsive">
                                 <div class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <table class="CatalogueTable CatalogueTH CatalogueTD CatalogueTR" table border='1'>
                                         <tr>
-                                            <th>ID</th>
                                             <th>Merk</th>
                                             <th>Color</th>
                                             <th>Size</th>
@@ -197,9 +187,6 @@
                                         </tr>
                                         <?php foreach ($jaket->result() as $r): ?>
                                         <tr>
-                                            <td>
-                                                <?php echo $r->id_jaket ?>
-                                            </td>
                                             <td>
                                                 <?php echo $r->merk_jaket ?>
                                             </td>
@@ -216,15 +203,15 @@
                                                 <?php echo $r->jenis_jaket ?>
                                             </td>
                                             <td>
-                                                <a href="<?php echo site_url("Admin/update/".$r->id_jaket) ?>"
+                                                <a href="<?php echo site_url(" Admin/update/".$r->id_jaket) ?>"
                                                     class="btn btn-warning btn-icon-split">
                                                     <span class="icon text-white-50">
                                                         <i class="fas fa-exclamation-triangle"></i>
                                                     </span>
                                                     <span class="text">Ubah</span>
                                                 </a>
-                                                <a href="<?php echo site_url("Admin/hapus/".$r->id_jaket) ?>"
-                                                    class="btn btn-danger btn-icon-split">
+                                                <a class="btn btn-danger btn-icon-split" data-toggle="modal"
+                                                    data-target="#deleteModal">
                                                     <span class="icon text-white-50">
                                                         <i class="fas fa-trash"></i>
                                                     </span>
@@ -235,6 +222,7 @@
                                         <?php endforeach; ?>
                                     </table>
                                 </div>
+                                <!-- Sampe sini databasenya -->
                             </div>
                         </div>
                     </div>
@@ -280,6 +268,28 @@
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Batalkan</button>
                     <a class="btn btn-primary" href="http://localhost/TubesTekWeb/index.php/User/">Keluar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Delete Modal-->
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Hapus data?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Apakah anda ingin menghapus data?</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Batalkan</button>
+                    <a href="<?php echo site_url(" Admin/hapus/".$r->id_jaket) ?>" class="btn btn-danger">
+                        <span class="text">Hapus</span>
+                    </a>
                 </div>
             </div>
         </div>

@@ -42,7 +42,9 @@
 
   <!-- Top menu on small screens -->
   <header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
-    <span class="w3-left w3-padding">KATALOG KAMI</span>
+    <a href="http://localhost/TubesTekWeb/index.php/User/">
+      <span class="w3-left w3-padding">KATALOG KAMI</span>
+    </a>
     <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
   </header>
 
@@ -144,13 +146,12 @@
               class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Disain Original</span> <span
               class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Jaket</span>
             <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Model terbatas</span> <span
-              class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cardinal</span> <span
-              class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Kenzo</span>
+              class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Overcoat</span> <span
+              class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Denim</span>
             <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Pegunungan</span> <span
               class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Uniqlo</span> <span
               class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Lainnya</span>
-            <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Info</span> <span
-              class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Stok</span>
+            <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Info</span>
           </p>
         </div>
       </div>

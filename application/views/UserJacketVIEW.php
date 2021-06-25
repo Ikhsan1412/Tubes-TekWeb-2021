@@ -73,8 +73,8 @@
       <?php        if($jkt48->id_jaket == NULL){ ?>
       <img src="static_link.jpg" style="width:100%" onclick="onClick(this)" alt="Sesuatu">
       <?php       }
-            elseif ($jkt48->id_jaket != NULL) { ?>
-      <img src="static_link.jpg" style="width:100%" onclick="onClick(this)" alt="<?php echo $jkt48->merk_jaket ?>">
+            elseif ($jkt48->path_gambar!= NULL) { ?>
+      <img src="<?php echo $jkt48->path_gambar ?>" style="width:100%" onclick="onClick(this)" alt="<?php echo $jkt48->merk_jaket ?> <br> <?php echo $jkt48->harga_jaket ?>">
       <?php        } ?>
     </div>
     <?php     }?>

@@ -118,9 +118,9 @@
       <div class="w3-col m6 w3-center w3-padding-large">
         <p><b><i class="fa fa-user w3-margin-right"></i>FSI UNJANI</b></p><br>
         <img
-          src="https://scontent.fbdo9-1.fna.fbcdn.net/v/t1.6435-9/83868279_113438276884007_6728300237527449600_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeHhJmTxovQA9NEqE2XDSoY2SDXBreQPWIFINcGt5A9YgfG-yGqnyip0g_K6nDHui8Ln8BfuufEOTHiqpbwGlQpG&_nc_ohc=kC7xcy2GpmoAX8R6tqV&_nc_ht=scontent.fbdo9-1.fna&oh=24ffbabfcbe3ded920e969e0facfc9e4&oe=60CBE4B2"
+          src="https://66popa.dm.files.1drv.com/y4pGQT6SQtJTdWxjiWKmZd9q25l_sVDfSrb-JERwkpFOOUhu5lYwIej5Ch_ib4LQMmR2P8VChnwg8dBWRW4R1g7RpuEEydsQkc5BN5GWEES2LPWuHdzE7MG5KJnscjhWjgluTYziAAjpjoX9I1IEER9zCpYLVgMFZnVIdzemMSJT0QetDaqvsVABTWMyyKoEEJ1yYzOkkVEFl7zpaEqnX2-3w/Untitled.png"
           class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Fakultas Sains dan Informatika UNJANI"
-          width="500" height="333">
+          width="250" height="166">
       </div>
 
       <!-- Hide this text on small devices -->

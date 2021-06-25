@@ -156,6 +156,11 @@
                         <h1 class="h3 mb-0 text-gray-800">Tentang</h1>
                     </div>
 
+                    Rachma Dhian Agusputranto (3411171004) <br>
+				Ghiffary Naufal (3411171021) <br>
+				Yanuar Iksan S (3411171010) <br>
+				Rangga K (3411141151)
+
                 </div>
                 <!-- /.container-fluid -->
 

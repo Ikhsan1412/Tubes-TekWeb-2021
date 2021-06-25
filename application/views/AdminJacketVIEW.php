@@ -208,7 +208,7 @@
                                                 <?php echo $r->jenis_jaket ?>
                                             </td>
                                             <td>
-                                                <a href="<?php echo site_url(" Admin/update/".$r->id_jaket) ?>"
+                                                <a href="<?php echo site_url("Admin/update/".$r->id_jaket) ?>"
                                                     class="btn btn-warning btn-icon-split">
                                                     <span class="icon text-white-50">
                                                         <i class="fas fa-exclamation-triangle"></i>
@@ -292,7 +292,7 @@
                 <div class="modal-body">Apakah anda ingin menghapus data?</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Batalkan</button>
-                    <a href="<?php echo site_url(" Admin/hapus/".$r->id_jaket) ?>" class="btn btn-danger">
+                    <a href="<?php echo site_url("Admin/hapus/".$r->id_jaket) ?>" class="btn btn-danger">
                         <span class="text">Hapus</span>
                     </a>
                 </div>

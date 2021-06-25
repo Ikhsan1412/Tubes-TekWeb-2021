@@ -11,7 +11,8 @@
 				"color_jaket" => $this->input->post("color"),
 				"size_jaket" => $this->input->post("size"),
 				"harga_jaket" => $this->input->post("harga"),
-				"jenis_jaket" => $this->input->post("jenis")
+				"jenis_jaket" => $this->input->post("jenis"),
+				"path_gambar" => $this->input->post("")
 				);
 				return $this->db->insert('jaket',$jaket);
 			}
@@ -28,7 +29,8 @@
 				"color_jaket" => $this->input->post("color"),
 				"size_jaket" => $this->input->post("size"),
 				"harga_jaket" => $this->input->post("harga"),
-				"jenis_jaket" => $this->input->post("jenis")
+				"jenis_jaket" => $this->input->post("jenis"),
+				"path_gambar" => $this->input->post("path")
 				);
 				$this->db->where("id_jaket",$id);
 				return $this->db->update("jaket",$jaket);

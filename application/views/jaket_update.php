@@ -191,6 +191,8 @@
 										aria-describedby="price" placeholder="<?php echo $jaket->harga_jaket ?>">
 									<input type="text" class="form-control form-control-user" name="jenis"
 										aria-describedby="type" placeholder="<?php echo $jaket->jenis_jaket ?>">
+									<input type="text" class="form-control form-control-user" name="path"
+										aria-describedby="type" placeholder="<?php echo $jaket->path_gambar ?>">
 								</div>
 								<a href="http://localhost/TubesTekWeb/index.php/Admin/jacketVIEW"
 									class="btn btn-danger btn-circle btn-sm">
